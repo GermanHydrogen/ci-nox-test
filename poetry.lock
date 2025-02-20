@@ -168,23 +168,6 @@ tox-to-nox = ["importlib-resources ; python_version < \"3.9\"", "jinja2", "tox (
 uv = ["uv (>=0.1.6)"]
 
 [[package]]
-name = "nox-poetry"
-version = "1.1.0"
-description = "nox-poetry"
-optional = false
-python-versions = ">=3.8"
-groups = ["dev"]
-files = [
-    {file = "nox_poetry-1.1.0-py3-none-any.whl", hash = "sha256:30510b183f92f63f6b8d3d9b0d371b8d5ac57e7934dcf4a7042474bb91691756"},
-    {file = "nox_poetry-1.1.0.tar.gz", hash = "sha256:b19c597ec20cfb071eaa853aee2e28cedf8d88799d68b482e7b6c915948a2817"},
-]
-
-[package.dependencies]
-nox = ">=2020.8.22"
-packaging = ">=20.9"
-tomlkit = ">=0.7"
-
-[[package]]
 name = "packaging"
 version = "24.2"
 description = "Core utilities for Python packages"
@@ -296,18 +279,6 @@ files = [
 ]
 
 [[package]]
-name = "tomlkit"
-version = "0.13.2"
-description = "Style preserving TOML library"
-optional = false
-python-versions = ">=3.8"
-groups = ["dev"]
-files = [
-    {file = "tomlkit-0.13.2-py3-none-any.whl", hash = "sha256:7a974427f6e119197f670fbbbeae7bef749a6c14e793db934baefc1b5f03efde"},
-    {file = "tomlkit-0.13.2.tar.gz", hash = "sha256:fff5fe59a87295b278abd31bec92c15d9bc4a06885ab12bcea52c71119392e79"},
-]
-
-[[package]]
 name = "virtualenv"
 version = "20.29.2"
 description = "Virtual Python Environment builder"
@@ -331,4 +302,4 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "0d0bd04fb0bf7fd536f528dcc6fbd55982f56d6076b96aee34a1f61e4d471ba8"
+content-hash = "b3c55fb6e8d1378aa11ae2be1ba7ae8c76571c764f4e9d5f76c1926cdf4f17b7"
