@@ -1,0 +1,21 @@
+name: Tests
+on: push
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Install poetry
+        run: pipx install poetry
+
+      - name: Install nox
+        uses: wntrblm/nox@2024.04.15
+
+      - name: Install nox poetry
+        run: pip install nox-poetry
+
+      - run: nox
